@@ -1,0 +1,86 @@
+#portf {
+    width: 100%;
+    /* background:black; */
+    margin-top: 5%;
+    padding-bottom: 20px;
+}
+
+#port {
+    margin: 5% 0;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#port a {
+    height: 320px;
+    margin-right: 10px;
+    margin: auto;
+    width: 31%;
+    background-size: cover;
+    border-radius: 1ch;
+    box-shadow: 10px 0 blue;
+    margin-top: 5%;
+    position: relative;
+
+}
+
+#port .first {
+    background-image: url(./images/Screenshot_3.jpg);
+
+
+}
+
+#port .second {
+    background-image: url(./images/Screenshot_1.jpg);
+
+}
+
+#port .third {
+    background-image: url(./images/istock3.jpg);
+
+}
+
+
+
+
+
+
+
+@media(max-width:1000px) {
+    #port a {
+        width: 45%;
+    }
+}
+
+@media(max-width:768px) {
+    #portf #port {
+        flex-direction: column;
+
+    }
+
+    #portf #port {
+        margin-top: 10%;
+    }
+
+    #port a {
+        width: 90%;
+    }
+
+}
+
+@media(max-width:600px) {
+    #portf #port {
+        margin-top: 15%;
+    }
+}
+
+@media(max-width:350px) {
+    #portf #port {
+        margin-top: 20%;
+    }
+}
